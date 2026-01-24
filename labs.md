@@ -1,6 +1,6 @@
 # Capstone Project: Building a Customer Support Chatbot
 ## Enterprise AI Accelerator Workshop - Day 3 Capstone
-## Revision 1.8 - 11/29/25
+## Revision 1.9 - 01/24/26
 
 **Prerequisites:**
 - Completed Labs 1-5 in the main workshop (MCP fundamentals, classification server, RAG agent)
@@ -187,9 +187,10 @@ Alternatively, you can get to the running app, by switching to the *PORTS* tab (
 
 <br><br>
 
-2. Start the process by running the command below.
+2. Start the process by changing back to the root of the project and running the command below.
 
 ```
+cd ..
 code -d extra/mcp_server_full_solution.txt mcp_server.py
 ```
 
