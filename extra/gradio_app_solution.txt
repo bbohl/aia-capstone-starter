@@ -1009,7 +1009,7 @@ with gr.Blocks(title="OmniTech Support") as demo:
     <div style="text-align: center; padding: 1rem; margin-top: 1rem; border-top: 1px solid #e2e8f0; color: #94a3b8; font-size: 0.8rem;">
         <div>OmniTech Customer Support • Enterprise AI Accelerator Capstone</div>
         <div style="margin-top: 0.5rem;">
-            <a href="https://getskillsnow.com" target="_blank" style="color: #64748b; text-decoration: none;">&copy; 2025 Tech Skills Transformations</a>
+            <a href="https://getskillsnow.com" target="_blank" style="color: #64748b; text-decoration: none;">&copy; 2026 Tech Skills Transformations</a>
         </div>
     </div>
     """)
@@ -1137,7 +1137,7 @@ if __name__ == "__main__":
         server_port=7860,
         share=True,
         footer_links=[
-            {"text": "© 2025 Tech Skills Transformations", "url": "https://getskillsnow.com"}
+            {"text": "© 2026 Tech Skills Transformations", "url": "https://getskillsnow.com"}
         ]
     )
 

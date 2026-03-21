@@ -1,6 +1,6 @@
 # Capstone Project: Building a Customer Support Chatbot
 ## Enterprise AI Accelerator Workshop - Day 3 Capstone
-## Revision 1.9 - 01/24/26
+## Revision 2.0 - 03/21/26
 
 **Prerequisites:**
 - Completed Labs 1-5 in the main workshop (MCP fundamentals, classification server, RAG agent)

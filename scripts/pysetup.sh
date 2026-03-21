@@ -10,6 +10,8 @@ source ./$PYTHON_ENV/bin/activate
 
 if [ -f "./requirements/requirements.txt" ]; then
   pip3 install -r "./requirements/requirements.txt"
+elif [ -f "./requirements.txt" ]; then
+  pip3 install -r "./requirements.txt"
 else
-  pip3 install -r "/workspaces/aia-day2-b/requirements/requirements.txt"
+  echo "Warning: No requirements.txt found in requirements/ or current directory."
 fi

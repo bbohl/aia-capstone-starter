@@ -94,22 +94,22 @@ cat > "$OUTPUT_DIR/requirements.txt" << 'EOF'
 # Note: HF Spaces has many packages pre-installed, so we only list what we need
 
 # MCP (Model Context Protocol)
-mcp>=1.22.0
+mcp>=1.6.0
 
 # Vector database for RAG
-chromadb>=0.4.0
+chromadb>=0.6.0
 
 # PDF processing
 pypdf>=5.0.0
 
 # Gradio UI (usually pre-installed on HF Spaces, but specify version)
-gradio>=4.19.0
+gradio>=5.0.0
 
 # HuggingFace Hub for LLM inference
-huggingface_hub>=0.20.0
+huggingface_hub>=0.28.0
 
 # Sentence transformers for embeddings (used by ChromaDB)
-sentence-transformers>=2.2.0
+sentence-transformers>=3.0.0
 EOF
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -124,7 +124,7 @@ emoji: 🤖
 colorFrom: blue
 colorTo: indigo
 sdk: gradio
-sdk_version: "4.44.0"
+sdk_version: "5.0.0"
 app_file: app.py
 pinned: false
 license: mit

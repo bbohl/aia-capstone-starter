@@ -15,7 +15,7 @@ Based on the devcontainer configuration, your system should have:
 
 ### Required Software
 
-1. **Python 3.8+**
+1. **Python 3.10+**
    ```bash
    # Check your version
    python3 --version
