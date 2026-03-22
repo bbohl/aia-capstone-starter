@@ -28,48 +28,9 @@ The codespace is ready to use when you see output like the one shown below in it
 
 <br><br>
 
-**3. Set up your HuggingFace API token.**
+**3. Make sure you have your Hugging Face token from Day 1.  We'll need it to deploy.**
 
-The RAG agent uses HuggingFace's Inference API to generate LLM responses. You'll need a free API token:
-
-A. Go to (https://huggingface.co)[https://huggingface.co] and log in if you already have an account. If you need to create an account, click the *Sign Up* button or visit (https://huggingface.co/join)[https://huggingface.co/join]
-
-![HF login](./images/aia-3-19.png?raw=true "HF login")
-
-<br>
-   
-B. Navigate to (https://huggingface.co/settings/tokens)[https://huggingface.co/settings/tokens].  Click on *+ Create new token*.
-
-![Get token](./images/aia-3-20.png?raw=true "Get token")
-
-<br>
-
-C. Select **Write** for the token type and provide a name.
-
-![Read token](./images/ae80.png?raw=true "Read token")
-
-<br>
-   
-D. Click on the *Create token* button and copy the token (it starts with `hf_`). Save it somewhere.
-
-![Save/copy token](./images/ae81.png?raw=true "Save/copy token")
-
-<br>
-
-E. For all runs of agents in the labs, make sure the token is set in your terminal before running the agent:
-
-```bash
-export HF_TOKEN="hf_your_token_here"
-```
-
-<br>
-
-F. Alternatively, to make this permanent for your codespace session, add it to your shell profile:
-
-```bash
-echo 'export HF_TOKEN="hf_your_token_here"' >> ~/.bashrc
-source ~/.bashrc
-```
+Refer back to [Day 1 README.md](https://github.com/skillrepos/aia-day1/blob/main/README.md) if you need to generate a new one.
 
 <br><br>
 
