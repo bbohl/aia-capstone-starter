@@ -1,6 +1,6 @@
 # Capstone Project: Building a Customer Support Chatbot
 ## Enterprise AI Accelerator Workshop - Day 3 Capstone
-## Revision 2.0 - 03/21/26
+## Revision 2.1 - 03/22/26
 
 **Prerequisites:**
 - Completed Labs 1-5 in the main workshop (MCP fundamentals, classification server, RAG agent)
@@ -159,7 +159,7 @@ python gradio_app_minimal.py
 
 4. When this starts, you should see a pop-up in the lower right that has a button to click to open the app. If you click that and it instead opens a new codespace instance, just close that new tab, go back and try the process again.
 
-![Running the gradio app](./images/aia-3-27.png?raw=true "Running the gradio app")
+![Running the gradio app](./images/aia-3-28.png?raw=true "Running the gradio app")
 
 <br>
 
