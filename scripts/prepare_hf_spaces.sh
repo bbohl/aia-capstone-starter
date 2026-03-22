@@ -110,6 +110,10 @@ huggingface_hub>=0.28.0
 
 # Sentence transformers for embeddings (used by ChromaDB)
 sentence-transformers>=3.0.0
+
+# Python 3.13 compatibility: audioop was removed from stdlib in 3.13,
+# but pydub (a gradio dependency) requires it. pyaudioop provides it.
+pyaudioop>=0.2.1
 EOF
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -128,6 +132,7 @@ sdk_version: "5.0.0"
 app_file: app.py
 pinned: false
 license: mit
+python_version: "3.12"
 ---
 
 # OmniTech Customer Support Chatbot
