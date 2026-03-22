@@ -26,7 +26,25 @@ In this capstone project, you will build a complete customer support chatbot wit
 
 **Purpose: Verify the starter MCP server and RAG agent work correctly before adding enhancements.**
 
-1. The capstone starter project contains a *minimal version* MCP server and RAG agent. Just to reengage our memory on the basics, let's explore what we have. First, change into the minimal_app subdirectory and let's look at what files we have to work with.
+1. Get your *HF_TOKEN* Hugging Face token value from Day 1 and set it.
+
+
+```bash
+export HF_TOKEN=hf_your_token_here
+```
+
+<br> 
+
+Alternatively, to make this permanent for your codespace session, add it to your shell profile:
+
+```bash
+echo 'export HF_TOKEN=hf_your_token_here' >> ~/.bashrc
+source ~/.bashrc
+```
+
+<br><br>
+
+2. The capstone starter project contains a *minimal version* MCP server and RAG agent. Just to reengage our memory on the basics, let's explore what we have. First, change into the minimal_app subdirectory and let's look at what files we have to work with.
 
 ```
 cd minimal_app
@@ -44,7 +62,7 @@ ls -la
 
 <br><br>
 
-2. Let's examine the starter MCP server. Open the file:
+3. Let's examine the starter MCP server. Open the file:
 
 ```
 code mcp_server_minimal.py
@@ -57,7 +75,7 @@ code mcp_server_minimal.py
   
 <br><br>
 
-3. Now examine the RAG agent:
+4. Now examine the RAG agent:
 
 ```
 code rag_agent_minimal.py
@@ -78,9 +96,10 @@ code rag_agent_minimal.py
 
 <br><br>
 
-4. Let's run the agent in test mode. This will automatically start the MCP server: (Make sure you've set the *HF_TOKEN* environment variable in the terminal.)
+5. Let's run the agent in test mode. 
 
 ```
+
 python rag_agent_minimal.py
 ```
 
@@ -95,7 +114,7 @@ python rag_agent_minimal.py
 
 <br><br>
 
-5. Observe the workflow output:
+6. Observe the workflow output:
    - Searching the knowledge base
    - Getting info from orders (if needed)
    - Generating response with LLM
