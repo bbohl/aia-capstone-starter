@@ -16,15 +16,7 @@ Click here ➡️  [![Open in GitHub Codespaces](https://github.com/codespaces/b
 
 ![Creating new codespace from button](./images/aia-3-24.png?raw=true "Creating new codespace from button")
 
-This will run for a long time while it gets everything ready.
-
-After the initial startup, it will run a script to setup the python environment and install needed python pieces. This will take several more minutes to run. It will look like this while this is running.
-
-![Final prep](./images/aia-3-25.png?raw=true "Final prep")
-
-The codespace is ready to use when you see output like the one shown below in its terminal.
-
-![Ready to use](./images/aia-3-26.png?raw=true "Ready to use")
+This will run for a few minutes while it gets everything ready.
 
 <br><br>
 
